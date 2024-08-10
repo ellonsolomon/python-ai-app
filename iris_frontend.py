@@ -35,7 +35,7 @@ app = Dash(__name__)
 BASE_URL = " http://172.28.175.67:4000"
 
 
-df = pd.read_csv("iris_extended_encoded.csv",sep=',')
+df = pd.read_csv("iris_data_encoded.csv",sep=',')
 df_csv = df.to_csv(index=False)
 
 app.layout = html.Div(children=[

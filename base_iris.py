@@ -41,7 +41,7 @@ def load_local():
     global datasets  
     print("load local default data")  
     dataFolder = './'  
-    dataFile = dataFolder + "iris_extended_encoded.csv"  
+    dataFile = dataFolder + "iris_data_encoded.csv"  
     # Append the dataset read from CSV to the list of datasets and return its index  
     datasets.append(pd.read_csv(dataFile))  
     return len(datasets) - 1  

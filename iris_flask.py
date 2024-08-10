@@ -3,7 +3,7 @@ import pandas as pd
 import io  
 
 # Import functions from the backend model  
-from base_iris_lab1b import build, load_local, datasets, add_dataset, train, new_model, score, test  
+from base_iris import build, load_local, datasets, add_dataset, train, new_model, score, test  
 
 
 app = Flask(__name__)  

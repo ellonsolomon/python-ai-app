@@ -1,10 +1,10 @@
 # Start with the TensorFlow base image  
 FROM tensorflow/tensorflow:latest  
   
-# Set working directory for our Flask + Dash application  
+# Set working directory for the application (Flask + Dash)  
 WORKDIR /usr/src/app  
   
-# Install virtualenv  
+# Install virtualenv
 RUN pip install virtualenv  
   
 # Create a virtual environment and activate it  
@@ -25,4 +25,4 @@ RUN pip install dash pandas plotly
 EXPOSE 8050  
   
 # Run the frontend Dash application on the specified port  
-CMD ["python", "./app_lab3_template.py"]  
+CMD ["python", "./iris_frontend.py"]  
