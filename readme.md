@@ -1,10 +1,30 @@
-To run the application, follow this commands:
+# Iris Flower Classifier
 
+This project implements an Iris flower classification application using TensorFlow, Flask, and Dash. The application allows users to classify Iris flowers based on their features.
 
-1, clone this repository
+## Table of Contents
 
-2, Inside the cloned repo, run : docker build -t pyapp .
+- [About](#about)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Files](#files)
+- [Contributing](#contributing)
+- [License](#license)
 
-3, then, docker run -p 8050:8050 pyapp
+## About
 
-4, now, go to your brower and run, http://127.0.0.1:8050/
+The Iris flower classifier uses machine learning techniques to classify Iris flowers into three species based on their sepal and petal measurements. This application is built with the following technologies:
+
+- **TensorFlow**: For building and training the classification model.
+- **Flask**: To serve the application.
+- **Dash**: For creating interactive web applications.
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ellonsolomon/python-ai-app.git
+   cd python-ai-app
