@@ -38,8 +38,7 @@ To run the application, execute the following command:
    ```bash
    docker run -p 8050:8050 pyapp
 
-Now, open your browser and visit:
-
+4. Now, open your browser and visit:
    ```bash
    http://127.0.0.1:8050/
    ```
@@ -48,12 +47,12 @@ Now, open your browser and visit:
 Once the application is running, you can input the sepal and petal measurements to classify the Iris flower. The model will provide predictions based on the provided data.
 
 # Files
-- iris_flask.py: Main entry point for the Flask application.
-- iris_frontend.py: Contains the Dash frontend logic.
-- base_iris.py: Defines the machine learning model.
-- iris_data_encoded.csv: Dataset used for training the model.
-- Dockerfile: Configuration file for building the Docker image.
-- requirements.txt: Lists the required Python packages.
+- **iris_flask.py**: Main entry point for the Flask application.
+- **iris_frontend.py**: Contains the Dash frontend logic.
+- **base_iris.py**: Defines the machine learning model.
+- **iris_data_encoded.csv**: Dataset used for training the model.
+- **Dockerfile**: Configuration file for building the Docker image.
+- **requirements.txt**: Lists the required Python packages.
 
 # Contributing
 Contributions are welcome! If you have suggestions for improvements or want to report issues, please open an issue or submit a pull request.
