@@ -3,3 +3,6 @@ main.tf
 .terraform.lock.hcl
 .terraform
 *.lock.hcl
+# /tests
+/tf_venv/*
+__pycache__/

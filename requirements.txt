@@ -1,5 +1,7 @@
 flask  
-tensorflow  
+# tensorflow  
 pandas  
 numpy  
 scikit-learn
+
+# RUN pip install flask dash pandas plotly numpy scikit-learn
