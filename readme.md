@@ -42,6 +42,7 @@ Now, open your browser and visit:
 
    ```bash
    http://127.0.0.1:8050/
+   ```
 
 # Usage
 Once the application is running, you can input the sepal and petal measurements to classify the Iris flower. The model will provide predictions based on the provided data.
