@@ -32,7 +32,7 @@ import requests
 
 app = Dash(__name__)
 
-BASE_URL = " http://172.28.175.67:4000"
+BASE_URL = "http://localhost:4000"
 
 
 df = pd.read_csv("iris_data_encoded.csv",sep=',')
